@@ -32,7 +32,7 @@ class Local_Open_Sans {
 		$this->define_constants();
 
 		// Hooks
-		add_action( 'admin_enqueue_scripts', array( $this, 'replace_open_sans' ) );
+		add_action( 'wp_loaded', array( $this, 'replace_open_sans' ) );
 	}
 
 	/**
