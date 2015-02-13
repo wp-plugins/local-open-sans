@@ -1,9 +1,9 @@
 === Local Open Sans ===
-Contributors: ThemeBoy
+Contributors: ThemeBoy, bluedauber
 Tags: open sans, admin, speed, google, fonts, development, dashboard, local
 Requires at least: 3.0
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv3 or later
 
 Replace Open Sans with a local copy to speed up admin testing and development.
@@ -40,6 +40,9 @@ The manual installation method involves downloading the plugin and uploading it 
 Automatic updates should work like a charm; as always though, ensure you backup your site just in case.
 
 == Changelog ==
+
+= 1.0.1 =
+* Replace font in admin bar. Props @bluedauber
 
 = 1.0 =
 * Initial release.

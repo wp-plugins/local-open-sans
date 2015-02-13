@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Local_Open_Sans
- * @version 1.0
+ * @version 1.0.1
  */
 /*
 Plugin Name: Local Open Sans
 Plugin URI: http://wordpress.org/plugins/local-open-sans/
 Description: Replace Open Sans with a local copy to speed up admin testing and development.
 Author: ThemeBoy
-Version: 1.0
+Version: 1.0.1
 Author URI: http://themeboy.com/
 */
 
@@ -40,7 +40,7 @@ class Local_Open_Sans {
 	*/
 	private function define_constants() {
 		if ( !defined( 'LOCAL_OPEN_SANS_VERSION' ) )
-			define( 'LOCAL_OPEN_SANS_VERSION', '1.0' );
+			define( 'LOCAL_OPEN_SANS_VERSION', '1.0.1' );
 
 		if ( !defined( 'LOCAL_OPEN_SANS_URL' ) )
 			define( 'LOCAL_OPEN_SANS_URL', plugin_dir_url( __FILE__ ) );
